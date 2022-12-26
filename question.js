@@ -152,7 +152,7 @@ var r=0;
     button.setAttribute('id','submit');
     button.setAttribute('onclick','submit()');
     question_div.appendChild(button);
-    var v=-1;
+    var v=0;
     var t=0;
     console.log(question_type_array[v]);
     function submit(){
