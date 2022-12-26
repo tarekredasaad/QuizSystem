@@ -186,8 +186,8 @@ var r=0;
 
             if(answers_checked[i].checked == check_answer_array[i] && answers_checked[i].checked == true){
                 grades++;
-                console.log(answers_checked[t].checked);
-                console.log(check_answer_array[t]);
+                // console.log(answers_checked[t].checked);
+                // console.log(check_answer_array[t]);
                 console.log('good');
             }else{
                 console.log('bad');
